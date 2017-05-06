@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>BOX-TYPE</title>
+    <meta name="description" content="this is for snulion css seminar">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .parent {
+        background-color: pink;
+        height: 120px;
+      }
+      .child {
+        background-color: greenyellow;
+        height: 50px;
+        border: 1px solid green;
+        /* width: 200px; */
+      }
+      .flow {
+        background-color: pink;
+        /* display: inline-block; */
+        /* width: 200px; */
+        /* margin-top: 20px; */
+        /* padding-top: 20px; */
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h3>BLOCK - 길막의 방법</h3>
+      <p>별도의 width값 주지 않았을 때 vs 별도의 width값 주었을 때</p>
+      <div class="parent">
+        <div class="child">
+        </div>
+      </div>
+<!--
+      <p>별도의 height값 주지 않았을 때</p>
+      <div class="parent">
+        <div class="child"></div>
+        <div class="child"></div>
+      </div>
+-->
+    </section>
+    <section>
+      <h3>inline</h3> 
+<!--      <h3>inline-block</h3>-->
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas minus placeat rem tenetur distinctio adipisci odio maiores, repellendus, natus laboriosam aspernatur possimus ipsam, aliquam ratione quidem voluptatum totam soluta dignissimos.Lorem ipsum dolor sit amet, <span class="flow">consectetur</span> adipisicing elit. Perspiciatis similique, accusamus. Autem totam ducimus, fuga iusto assumenda recusandae est magni nobis pariatur, quod quibusdam iure quia vitae expedita ipsam incidunt.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit vero non velit dolorum quibusdam eaque quos? Quos, velit consequuntur. Est cupiditate nesciunt expedita earum, sit numquam atque reprehenderit, impedit enim?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis aliquid reiciendis, voluptate dolorum cumque tenetur aspernatur iste et, illum dignissimos officiis, velit repellendus ut est eaque. Molestias quae, facere ducimus.</p>
+    </section>
+    
+  </body>
+</html>
